@@ -3,7 +3,7 @@ require 'formula'
 class Ant < Formula
   url 'http://www.apache.org/dist/ant/binaries/apache-ant-1.8.2-bin.tar.gz'
   homepage 'http://ant.apache.org/'
-  md5 'afb0c7950a663f94e65da9f3be676d8f'
+  md5 'd13be81f715c51ce3e13a7149fd92765'
 
   def install
     rm Dir['bin/*.{bat,cmd,dll,exe}']
